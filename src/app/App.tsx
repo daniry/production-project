@@ -5,11 +5,15 @@ import { useTheme } from "./providers/ThemeProviders";
 import { AppRouter } from "./providers/router";
 import { Navbar } from "widgets/Navbar";
 import { Sidebar } from "widgets/Sidebar";
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export const App: React.FC = () => {
     const { theme } = useTheme();
+
+    // useEffect(() => {
+    //     throw new Error("test");
+    // }, []);
     return (
         <div className={classNames("app", {}, [theme])}>
             <Suspense fallback="">

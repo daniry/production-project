@@ -1,5 +1,8 @@
 {
-    "Тестовый пример": "Тестовый перевод",
-    "Перевод": "Перевод",
-    "Язык": "Русский"
+    "language": "Русский",
+    "proizoshla-nepridvidennaya-oshibka": "Произошла непридвиденная ошибка",
+    "obnovit-stranicu": "Обновить страницу",
+    "throw-error": "throw Error",
+    "translate": "Перевод",
+    "page-not-found": "Страница не найдена"
 }
