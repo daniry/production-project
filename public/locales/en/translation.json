@@ -1,9 +1,10 @@
 {
-    "main": "Main",
-    "language": "English",
-    "proizoshla-nepridvidennaya-oshibka": "Произошла непридвиденная ошибка",
-    "obnovit-stranicu": "Reload page",
-    "throw-error": "throw Error",
-    "translate": "Translate",
-    "page-not-found": "Page not found"
+  "main": "Main",
+  "language": "English",
+  "proizoshla-nepridvidennaya-oshibka": "Произошла непридвиденная ошибка",
+  "obnovit-stranicu": "Reload page",
+  "throw-error": "throw Error",
+  "translate": "Translate",
+  "page-not-found": "Page not found",
+  "pereklyuchit": "Switch"
 }

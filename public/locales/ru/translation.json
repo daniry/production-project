@@ -1,9 +1,10 @@
 {
-    "main": "Главная",
-    "language": "Русский",
-    "proizoshla-nepridvidennaya-oshibka": "Произошла непридвиденная ошибка",
-    "obnovit-stranicu": "Обновить страницу",
-    "throw-error": "throw Error",
-    "translate": "Перевод",
-    "page-not-found": "Страница не найдена"
+  "main": "Главная",
+  "language": "Русский",
+  "proizoshla-nepridvidennaya-oshibka": "Произошла непридвиденная ошибка",
+  "obnovit-stranicu": "Обновить страницу",
+  "throw-error": "throw Error",
+  "translate": "Перевод",
+  "page-not-found": "Страница не найдена",
+  "pereklyuchit": "Переключить"
 }
