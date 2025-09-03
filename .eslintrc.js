@@ -42,6 +42,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'react/button-has-type': 'off',
+        'linebreak-style': 0,
         'i18next/no-literal-string': [
             'error',
             {

@@ -1,6 +1,7 @@
 {
   "main": "Main",
   "language": "English",
+  "short-language": "EN",
   "proizoshla-nepridvidennaya-oshibka": "Произошла непридвиденная ошибка",
   "obnovit-stranicu": "Reload page",
   "throw-error": "throw Error",
