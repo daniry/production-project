@@ -1,5 +1,3 @@
-import './styles/index.scss';
-
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
@@ -9,7 +7,6 @@ import { useTheme } from './providers/ThemeProviders';
 
 export const App: FC = () => {
     const { theme } = useTheme();
-
     // useEffect(() => {
     //     throw new Error("test");
     // }, []);
