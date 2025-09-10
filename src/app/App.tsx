@@ -3,7 +3,7 @@ import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 import { FC, Suspense } from 'react';
 import { AppRouter } from './providers/router';
-import { useTheme } from './providers/ThemeProviders';
+import { useTheme } from './providers/ThemeProvider';
 
 export const App: FC = () => {
     const { theme } = useTheme();
