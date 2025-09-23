@@ -20,18 +20,26 @@ server.use(async (req, res, next) => {
 // Эндпоинт для логина
 server.post('/login', (req, res) => {
     try {
-        const { username, password } = req.body;
-        const db = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'db.json'), 'UTF-8'));
+        console.log('BODY:', req.body);
+
+        const { authData } = req.body;
+        const { username, password } = authData || {};
+
+        const db = JSON.parse(
+            fs.readFileSync(path.resolve(__dirname, 'db.json'), 'UTF-8'),
+        );
         const { users = [] } = db;
+        console.log('USERS ARRAY:', users);
+        console.log('SEARCH:', { username, password });
 
         const userFromBd = users.find(
-            (user) => user.username === username && user.password === password,
+            (u) => u.username === username && u.password === password,
         );
+        console.log('FOUND:', userFromBd);
 
         if (userFromBd) {
             return res.json(userFromBd);
         }
-
         return res.status(403).json({ message: 'User not found' });
     } catch (e) {
         console.log(e);

@@ -11,5 +11,8 @@
   "enter": "Войти",
   "login": "Войти",
   "enter-username": "Введите логин",
-  "enter-password": "Введите пароль"
+  "enter-password": "Введите пароль",
+  "authorization-form": "Форма авторизации",
+  "login-error": "Вы ввели неверный логин или пароль",
+  "logout": "Выйти"
 }

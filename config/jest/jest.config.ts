@@ -5,6 +5,8 @@
 
 import path from 'path';
 
+const srcPath = path.resolve(__dirname, '../../src');
+
 export default {
     // A set of global variables that need to be available in all test environments
     globals: {
@@ -25,6 +27,7 @@ export default {
     moduleNameMapper: {
         '\\.s?css$': 'identity-obj-proxy',
         '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
+        '^@/(.*)$': `${srcPath}/$1`,
     },
     // Indicates whether the coverage information should be collected while executing the test
     // collectCoverage: false,

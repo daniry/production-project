@@ -11,5 +11,8 @@
   "enter": "Log In",
   "login": "Login",
   "enter-username": "Enter username",
-  "enter-password": "Enter the password"
+  "enter-password": "Enter the password",
+  "authorization-form": "Authorization form",
+  "login-error": "Wrong username or password",
+  "logout": "Logout"
 }
