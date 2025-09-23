@@ -5,6 +5,7 @@ npx webpack
 npm run test:unit Sidebar.test.tsx
 
 # Локальный прогон скриншотных тестов 
+npm run storybook
 npm run test:ui
 
 Скриншотные тесты работают на локалке, только если включен Docker.
