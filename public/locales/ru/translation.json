@@ -8,5 +8,8 @@
   "translate": "Перевод",
   "page-not-found": "Страница не найдена",
   "pereklyuchit": "Переключить",
-  "enter": "Войти"
+  "enter": "Войти",
+  "login": "Войти",
+  "enter-username": "Введите логин",
+  "enter-password": "Введите пароль"
 }

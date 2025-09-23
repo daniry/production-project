@@ -8,5 +8,8 @@
   "translate": "Translate",
   "page-not-found": "Page not found",
   "pereklyuchit": "Switch",
-  "enter": "Log In"
+  "enter": "Log In",
+  "login": "Login",
+  "enter-username": "Enter username",
+  "enter-password": "Enter the password"
 }
